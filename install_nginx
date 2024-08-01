@@ -1,0 +1,10 @@
+#!/bin/bash
+#Script to install nginx
+if [ -x yum install nginx ]
+then
+sudo yum install nginx
+
+else 
+ sudo amazon-linux-extras install nginx1
+
+fi

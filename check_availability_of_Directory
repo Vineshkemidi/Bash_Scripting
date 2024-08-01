@@ -1,0 +1,12 @@
+#!/bin/bash
+#Script to check if a directory is available or not
+if [ -e /Scripts ]
+
+echo
+then
+echo "directory is available"
+else
+echo "directory is unavailable"	
+fi
+
+

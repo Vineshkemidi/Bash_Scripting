@@ -1,0 +1,9 @@
+#!/bin/bash
+#Script to create multiple files 
+for i in demo_file{1..4}
+
+do 
+
+touch $i
+
+done

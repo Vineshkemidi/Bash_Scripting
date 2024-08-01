@@ -1,0 +1,15 @@
+#!/bin/bash
+#Script to create a backup of a directory
+ source="/Bash_Scripts"
+ Backup="/"
+
+ 
+
+ Backup_file="$Backup/Backup_Bash_Scripts.tar.gz"
+
+ tar -czvf "$Backup" -c "$(dirname "$source")" "$(basename "source")"
+
+ echo "Backup completed: $Backup_file"
+
+
+

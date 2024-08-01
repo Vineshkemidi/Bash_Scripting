@@ -1,0 +1,8 @@
+#!/bin/bash
+#script to create a backupfile
+echo "enter the Directory You need to backup "
+read a 
+echo "enter the new Directory name"
+read b
+cp -r $a $b
+echo "Directory has been copied as $b"

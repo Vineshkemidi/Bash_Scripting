@@ -1,0 +1,9 @@
+#!/bin/bash
+#Scrip to check a directory and create new if not exits
+if [ -e /Scripts/test_directory ]
+then
+echo test_directory exits
+else
+mkdir test_directory1
+echo Created test_directory
+fi
